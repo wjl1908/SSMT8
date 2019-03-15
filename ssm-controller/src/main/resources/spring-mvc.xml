@@ -19,6 +19,7 @@
     </bean>
 
     <!--放行静态资源-->
-    <mvc:default-servlet-handler/>
+    <mvc:default-servlet-handler />
 
+    <mvc:resources location="/static/" mapping="/static/**"/>
 </beans>
